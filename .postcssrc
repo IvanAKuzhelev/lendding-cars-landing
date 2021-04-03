@@ -1,0 +1,11 @@
+{
+  "modules": true,
+  "plugins": {
+    "postcss-import": {},
+    "postcss-url": {},
+    "postcss-custom-properties": {},
+    "postcss-modules": {
+      "generateScopedName": "_[name]__[local]"
+    }
+  }
+}
